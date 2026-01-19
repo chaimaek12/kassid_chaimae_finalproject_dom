@@ -70,8 +70,10 @@ container.forEach(carousel  => {
 let mymenu=document.querySelector(".menu")
 let dakchylifmenu=mymenu.querySelectorAll("div")
  let mymenutitre=document.querySelector(".menutitre")
- let ontestproudly=document.querySelector(".ontestproudly")
-
-ontestproudly.addEventListener("click",()=>{
+ let mystarters=document.querySelector(".mystarters")
+let myh1span=document.querySelector(".myh1demenu")
+mystarters.addEventListener("click",()=>{
     mymenu.style.display="none"
+    myh1span.style.display="none"
+
 })
