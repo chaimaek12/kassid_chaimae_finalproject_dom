@@ -158,3 +158,97 @@ justify-content: center;
     background-image: url(./stats-bg.jpg);
 }
 
+ /* section 5 menu  */
+ .menutitre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: underline  4px black;
+ }
+ .menu{
+    display: grid;
+    
+    grid-template-columns:repeat(1fr 100px);
+    grid-template-rows:  repeat(1fr 100px);
+ }
+
+
+ /* section6 carousel one */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 20px;
+  
+    margin-top: 70px;
+    position: relative;
+}
+
+.track{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   overflow: hidden;
+
+    
+
+}
+
+.left{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.slides{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: antiquewhite;
+     border-radius: 20px;
+    font-size: 50px;
+    flex-shrink: 0;
+}
+.arrow{
+    border: none;
+    color: white;
+    background-color: brown;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+.indicators{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+.indicators div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+.indicators .dotColor{
+    background-color: black;
+}
+
