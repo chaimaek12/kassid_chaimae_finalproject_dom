@@ -114,15 +114,34 @@ width:50vw;
 }
 
 /* sectionabout us */
-  .aboutus h1{
-display: flex;
-align-items: center;
-justify-content: center;
-
+.section1{
+    display :flex ;
+    align-items: center;
+    gap: 50px;
+    
+}
+.rightdiv{
+width: 50%;
+}
+.leftdiv{
+    width: 50%;
 
 }
- .aboutus h1 span{
-    color: red;
+.rigthdiv h5{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.bb{
+display: flex;
+}
+
+.bb p , .pargraph{
+    color: black;
+}
+.bb i {color: red;
+
 }
 
 /* section4dyal cards  */
@@ -155,7 +174,9 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content:space-around;
-    background-image: url(./stats-bg.jpg);
+    background: url(/stats-bg.jpg);
+    height: 300px;
+    color: white;
 }
 
  /* section 5 menu  */
@@ -252,3 +273,67 @@ justify-content: center;
     background-color: black;
 }
 
+/* lmaps section */
+.contact iframe {
+  width: 100%;
+  height: 60vh;
+  border: none;
+}
+
+/* lfooter section  */
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer a {
+  color: white;
+}
+
+.finalfooter {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.finalfooter span {
+  color: orange;
+}
+.adress i  , .contacts i , .OpeningHours i{
+    color :red ;
+}
+  /* dek l3aiba dyal liktl3 l top */
+  .back-to-top {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #e96b56;
+  /* text-align: center; */
+  opacity: 1;
+  z-index: 99;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+}
+.back-to-top i {
+  color: white;
+}
+.back-to-top .back-to-top a {
+  padding-top: 10px;
+  text-decoration: none;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+.back-to-top .back-to-top a i {
+  color: white;
+}
