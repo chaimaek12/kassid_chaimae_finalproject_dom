@@ -233,19 +233,7 @@ display: flex;
 }
 
  /* section 5 menu  */
- .menutitre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    text-decoration: underline  4px black;
- }
- .menu{
-    display: grid;
-    
-    grid-template-columns:repeat(1fr 100px);
-    grid-template-rows:  repeat(1fr 100px);
- }
+ 
 
 
  /* section6 carousel one */
@@ -330,7 +318,7 @@ display: flex;
 .finalfooter {
   background-color: black;
   color: white;
-  padding: 40px 0 20px;
+  padding: 40px  20px;
   display: flex;
   justify-content: center;
   display: flex;

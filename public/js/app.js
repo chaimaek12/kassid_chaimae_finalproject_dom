@@ -65,3 +65,13 @@ container.forEach(carousel  => {
    }
 })
 
+// menuu
+
+let mymenu=document.querySelector(".menu")
+let dakchylifmenu=mymenu.querySelectorAll("div")
+ let mymenutitre=document.querySelector(".menutitre")
+ let ontestproudly=document.querySelector(".ontestproudly")
+
+ontestproudly.addEventListener("click",()=>{
+    mymenu.style.display="none"
+})
