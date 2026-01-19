@@ -238,7 +238,35 @@ display: flex;
 
  /* section6 carousel one */
 
+.cartest{
+display: flex;
 
+align-items: center;
+justify-content: center;
+
+
+   .lisrc{
+    width:70% ;
+   }
+   .rightlimen{
+    width: 30%;
+   }
+   .rightlimen img{
+    border-radius: 50%;
+   }
+
+}
+
+
+
+
+
+.avantcarous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .container{
     width: 50vw;

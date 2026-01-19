@@ -1,3 +1,5 @@
+
+
 // carouseel by me 
 let btn = document.querySelectorAll('.arrow');
 let container = document.querySelectorAll('.container');
@@ -72,8 +74,27 @@ let dakchylifmenu=mymenu.querySelectorAll("div")
  let mymenutitre=document.querySelector(".menutitre")
  let mystarters=document.querySelector(".mystarters")
 let myh1span=document.querySelector(".myh1demenu")
+let mybreaky=document.querySelector(".mybreaky")
+let mylunch=document.querySelector(".mylunch")
+let mydinner=document.querySelector(".mydinner")
+
+
 mystarters.addEventListener("click",()=>{
     mymenu.style.display="none"
     myh1span.style.display="none"
 
+
+})
+
+mybreaky.addEventListener("click",()=>{
+   myh1span.textContent= "Breakfast"
+   myh1span.style.color="red"
+})
+mylunch.addEventListener("click",()=>{
+   myh1span.textContent= "lunch"
+   myh1span.style.color="red"
+})
+mydinner.addEventListener("click",()=>{
+   myh1span.textContent= "dinner"
+   myh1span.style.color="red"
 })

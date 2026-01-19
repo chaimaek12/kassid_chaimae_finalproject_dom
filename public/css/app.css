@@ -261,6 +261,28 @@ h1 span {
 
 /* section 5 menu  */
 /* section6 carousel one */
+.cartest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartest .lisrc {
+  width: 70%;
+}
+.cartest .rightlimen {
+  width: 30%;
+}
+.cartest .rightlimen img {
+  border-radius: 50%;
+}
+
+.avantcarous {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .container {
   width: 50vw;
   height: 60vh;
@@ -380,6 +402,18 @@ h1 span {
 
 .back-to-top .back-to-top a i {
   color: white;
+}
+
+.inputetphoto {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 0px;
+}
+.inputetphoto .left-input {
+  width: 50%;
+}
+.inputetphoto .pic {
+  width: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */
