@@ -1,0 +1,355 @@
+
+.topdepage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 25px ;
+    padding-top: 25px;
+
+
+}
+
+h1 span {
+    color: red;
+}
+
+.linkss {
+display: flex;
+gap: 20px;
+
+}
+.linkss a{
+    color: grey;
+    text-decoration: none;
+
+}
+#drop{border: none;
+
+}
+#drop:hover{
+    color: black;
+    text-decoration:underline  red ;
+    
+}
+
+.lbotona button {
+   
+      padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:red;
+}
+.linkss a:hover{
+    color: black;
+    text-decoration:underline  red ;
+    
+}
+/* css dyal section 2  */
+.section2{
+    background-color: rgb(241, 224, 224);
+    height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.leftone{
+height: 100vh;
+width:50vw;
+ padding: 200px 50px ;
+ 
+
+
+
+}
+.rightone{
+    width: 50vw;
+    height: 100vh;
+ padding :20px 20px  ;
+  
+
+
+}
+.buttonlowla{
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:red;
+
+}
+.buttontanya {
+ 
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+ 
+  color:black;
+  text-decoration: none;
+  border-radius: 8px;
+  
+ 
+}
+
+.buttontanya:hover {
+  color: #cc0000;
+}
+
+
+@keyframes thrika {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+
+.rightone img  {
+  animation: thrika 2s infinite ease-in-out;
+}
+
+/* sectionabout us */
+.sectionaboutus{
+    display :flex ;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 100px;
+    
+}
+.janblisr{
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.janblimn{
+    width: 50%;
+
+}
+.leftdiv h5{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.bb{
+display: flex;
+}
+
+.bb p , .pargraph{
+    color: black;
+}
+.bb i {color: red;
+
+}
+.carta{
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.anarouge{
+    color: red;
+}
+
+/* section4dyal cards  */
+
+.cardskolchy{
+    display: flex;
+    align-items: center;
+   gap: 50px;
+   
+    padding: 20px 100px;
+    background-color: antiquewhite;
+
+}
+.lcard1{
+    background-color: red;
+    color: white;
+    width: 800px;
+    height:400px ;
+}
+.lcard2 {
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 400px;
+}
+
+
+/* section 4 de photo au bag et  */
+.bagrphoto{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: url(/stats-bg.jpg);
+    height: 300px;
+    color: white;
+}
+
+ /* section 5 menu  */
+ .menutitre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: underline  4px black;
+ }
+ .menu{
+    display: grid;
+    
+    grid-template-columns:repeat(1fr 100px);
+    grid-template-rows:  repeat(1fr 100px);
+ }
+
+
+ /* section6 carousel one */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 20px;
+  
+    margin-top: 70px;
+    position: relative;
+}
+
+.track{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   overflow: hidden;
+
+    
+
+}
+
+.left{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.slides{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: antiquewhite;
+     border-radius: 20px;
+    font-size: 50px;
+    flex-shrink: 0;
+}
+.arrow{
+    border: none;
+    color: white;
+    background-color: brown;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+.indicators{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+.indicators div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+.indicators .dotColor{
+    background-color: black;
+}
+
+/* lmaps section */
+.contact iframe {
+  width: 100%;
+  height: 60vh;
+  border: none;
+}
+
+/* lfooter section  */
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer a {
+  color: white;
+}
+
+.finalfooter {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.finalfooter span {
+  color: orange;
+}
+.adress i  , .contacts i , .OpeningHours i{
+    color :red ;
+}
+  /* dek l3aiba dyal liktl3 l top */
+  .back-to-top {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #e96b56;
+  /* text-align: center; */
+  opacity: 1;
+  z-index: 99;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+}
+.back-to-top i {
+  color: white;
+}
+.back-to-top .back-to-top a {
+  padding-top: 10px;
+  text-decoration: none;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+.back-to-top .back-to-top a i {
+  color: white;
+}
