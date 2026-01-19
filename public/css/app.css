@@ -1,5 +1,13 @@
 .myslide {
   background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.myslide .limn img {
+  border-radius: 50%;
+  width: 300px;
 }
 
 .topdepage {
@@ -243,12 +251,6 @@ h1 span {
 }
 
 /* section6 carousel one */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .container {
   width: 50vw;
   height: 60vh;
@@ -266,18 +268,6 @@ h1 span {
   overflow: hidden;
 }
 
-.left {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-}
-
-.right {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-}
-
 .slides {
   width: 100%;
   height: 100%;
@@ -288,14 +278,6 @@ h1 span {
   border-radius: 20px;
   font-size: 50px;
   flex-shrink: 0;
-}
-
-.arrow {
-  border: none;
-  color: white;
-  background-color: brown;
-  border-radius: 12px;
-  padding: 10px 30px;
 }
 
 .indicators {

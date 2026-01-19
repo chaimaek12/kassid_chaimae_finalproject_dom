@@ -251,11 +251,7 @@ display: flex;
  /* section6 carousel one */
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .container{
     width: 50vw;
     height: 60vh;
@@ -277,17 +273,7 @@ display: flex;
 
 }
 
-.left{
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    
-}
-.right{
-    position: absolute;
-    top: 50%;
-    right: 10px;
-}
+
 
 .slides{
     width: 100%;
@@ -300,13 +286,7 @@ display: flex;
     font-size: 50px;
     flex-shrink: 0;
 }
-.arrow{
-    border: none;
-    color: white;
-    background-color: brown;
-    border-radius: 12px;
-    padding: 10px 30px;
-}
+
 .indicators{
     /* background-color: red; */
     display: flex;

@@ -1,3 +1,13 @@
 .myslide{
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .limn img{
+        border-radius: 50%;
+      width: 300px;
+
+
+    }
 }
