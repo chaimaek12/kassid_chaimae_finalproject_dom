@@ -114,21 +114,24 @@ width:50vw;
 }
 
 /* sectionabout us */
-.section1{
+.sectionaboutus{
     display :flex ;
     align-items: center;
     gap: 50px;
     padding: 100px 100px;
     
 }
-.rightdiv{
+.janblisr{
 width: 50%;
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
-.leftdiv{
+.janblimn{
     width: 50%;
 
 }
-.rigthdiv h5{
+.leftdiv h5{
     color: grey;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -143,6 +146,18 @@ display: flex;
 }
 .bb i {color: red;
 
+}
+.carta{
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.anarouge{
+    color: red;
 }
 
 /* section4dyal cards  */
