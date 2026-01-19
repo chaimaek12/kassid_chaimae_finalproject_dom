@@ -148,3 +148,13 @@ justify-content: center;
     width: 500px;
     height: 400px;
 }
+
+
+/* section 4 de photo au bag et  */
+.bagrphoto{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-image: url(./stats-bg.jpg);
+}
+
