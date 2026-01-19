@@ -1,0 +1,36 @@
+  /* css de top de page  */
+.topdepage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1 span {
+    color: red;
+}
+
+.linkss {
+display: flex;
+gap: 20px;
+
+}
+.linkss a{
+    color: grey;
+    text-decoration: none;
+
+}
+
+.lbotona button {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px 25px ;
+    border: none;
+}
+.linkss a:hover{
+    color: black;
+    text-decoration:underline  red ;
+    
+}
+
