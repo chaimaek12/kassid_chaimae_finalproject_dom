@@ -362,19 +362,22 @@ justify-content: center;
   /* dek l3aiba dyal liktl3 l top */
   .back-to-top {
   position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: #e96b56;
-  /* text-align: center; */
+ 
   opacity: 1;
   z-index: 99;
   bottom: 10px;
   right: 10px;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 .back-to-top i {
   color: white;
-}
+position: absolute;
+    top: 40%;
+    left: 30%;
+ }
 .back-to-top .back-to-top a {
   padding-top: 10px;
   text-decoration: none;
