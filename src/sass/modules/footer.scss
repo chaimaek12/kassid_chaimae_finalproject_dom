@@ -49,7 +49,7 @@ gap: 20px;
 /* css dyal section 2  */
 .section2{
     background-color: rgb(241, 224, 224);
-    height: 100vh;
+    height: 70vh;
    
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@ gap: 20px;
    
 }
 .leftone{
-height: 100vh;
+// height: 100vh;
 width:50vw;
  padding: 200px 50px ;
  
@@ -67,8 +67,8 @@ width:50vw;
 }
 .rightone{
     width: 50vw;
-    height: 100vh;
- padding :20px 20px  ;
+    // height: 100vh;
+ padding :2px 20px  ;
   
 
 
@@ -176,14 +176,51 @@ display: flex;
     color: white;
     width: 800px;
     height:400px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px ;
+    padding-right:20px ;
+    gap:10px;
 }
 .lcard2 {
     background-color: white;
     color: black;
     width: 500px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px ;
+    padding-right:20px ;
+    gap:10px ;
 }
+.lcard2 i {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    width: 50px;
+    padding:10px  10px ;
+    color :red
+}
+.lcard2 i:hover{
+    background-color: red;
+    color: antiquewhite;
+}
+.lcard1 button{
 
+        padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color :rgb(226, 226, 220);
+}
+.lcard1 button:hover{
+    color:red;
+    background-color: white;
+}
 
 /* section 4 de photo au bag et  */
 .bagrphoto{
