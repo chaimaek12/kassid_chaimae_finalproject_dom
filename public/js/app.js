@@ -98,3 +98,14 @@ mydinner.addEventListener("click",()=>{
    myh1span.textContent= "dinner"
    myh1span.style.color="red"
 })
+//carousell de gellerie 
+
+let mypicsgallery = document.querySelector(".picsgallery")
+let indicator = document.querySelectorAll('.no9ta')
+
+indicator.forEach((no9ta, index) => {
+  no9ta.addEventListener('click', () => {
+    mypicsgallery.style.transform = `translateX(-${index * 600}px)`
+  })
+})
+

@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+
+  /* ===== HEADER ===== */
+  .topdepage {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .linkss {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* ===== SECTION 2 ===== */
+  .section2 {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .leftone,
+  .rightone {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .rightone img {
+    width: 80%;
+  }
+
+  /* ===== ABOUT US ===== */
+  .sectionaboutus {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .janblisr,
+  .janblimn {
+    width: 100%;
+  }
+
+  /* ===== CARDS ===== */
+  .cardskolchy {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .lcard1,
+  .lcard2 {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  /* ===== BACKGROUND PHOTO ===== */
+  .bagrphoto {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* ===== CAROUSEL ===== */
+  .container {
+    width: 90vw;
+    height: auto;
+  }
+
+  .slides {
+    font-size: 30px;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  /* ===== BACK TO TOP ===== */
+  .back-to-top {
+    width: 50px;
+    height: 50px;
+  }
+
+  .back-to-top i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

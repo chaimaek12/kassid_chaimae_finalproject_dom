@@ -114,11 +114,19 @@ width:50vw;
 }
 
 /* sectionabout us */
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 span{
+    color: red;
+}
 .sectionaboutus{
     display :flex ;
     align-items: center;
     gap: 50px;
-    padding: 100px 100px;
+    padding: 10px 100px;
     
 }
 .janblisr{
@@ -158,6 +166,26 @@ display: flex;
 }
 .anarouge{
     color: red;
+}
+.tsweralitht img{
+    position: relative;
+    width: 100%;
+}
+.cerclerouge{
+    background-color: red;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+top: 1200px;
+right :350px
+
+}
+#byad{
+    width: 100px;
+    height: 100px;
+    bottom: 1000px;
+    
 }
 
 /* section4dyal cards  */
@@ -258,7 +286,9 @@ justify-content: center;
 }
 
 
-
+.carousselbyme{
+    background-color: antiquewhite;
+}
 
 
 .avantcarous{
@@ -272,7 +302,7 @@ justify-content: center;
     width: 50vw;
     height: 60vh;
     margin: auto;
-    border: 1px solid rgb(82, 82, 82);
+   
     border-radius: 20px;
   
     margin-top: 70px;
@@ -297,9 +327,9 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: antiquewhite;
+   
      border-radius: 20px;
-    font-size: 50px;
+    
     flex-shrink: 0;
 }
 
@@ -320,6 +350,11 @@ justify-content: center;
 }
 .indicators .dotColor{
     background-color: black;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* lmaps section */

@@ -136,11 +136,21 @@ h1 span {
 }
 
 /* sectionabout us */
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 span {
+  color: red;
+}
+
 .sectionaboutus {
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 100px 100px;
+  padding: 10px 100px;
 }
 
 .janblisr {
@@ -183,6 +193,27 @@ h1 span {
 
 .anarouge {
   color: red;
+}
+
+.tsweralitht img {
+  position: relative;
+  width: 100%;
+}
+
+.cerclerouge {
+  background-color: red;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 1200px;
+  right: 350px;
+}
+
+#byad {
+  width: 100px;
+  height: 100px;
+  bottom: 1000px;
 }
 
 /* section4dyal cards  */
@@ -276,6 +307,10 @@ h1 span {
   border-radius: 50%;
 }
 
+.carousselbyme {
+  background-color: antiquewhite;
+}
+
 .avantcarous {
   display: flex;
   align-items: center;
@@ -287,7 +322,6 @@ h1 span {
   width: 50vw;
   height: 60vh;
   margin: auto;
-  border: 1px solid rgb(82, 82, 82);
   border-radius: 20px;
   margin-top: 70px;
   position: relative;
@@ -306,9 +340,7 @@ h1 span {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: antiquewhite;
   border-radius: 20px;
-  font-size: 50px;
   flex-shrink: 0;
 }
 
@@ -331,6 +363,11 @@ h1 span {
 
 .indicators .dotColor {
   background-color: black;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
 }
 
 /* lmaps section */
@@ -423,12 +460,6 @@ h1 span {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: #f8f9fa;
-  margin: 0;
-  padding: 40px;
-}
-
 .contact-section {
   max-width: 1100px;
   margin: auto;
@@ -517,6 +548,110 @@ button:hover {
   .form-row {
     flex-direction: column;
   }
+}
+@media (max-width: 768px) {
+  /* ===== HEADER ===== */
+  .topdepage {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .linkss {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* ===== SECTION 2 ===== */
+  .section2 {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+  .leftone,
+  .rightone {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .rightone img {
+    width: 80%;
+  }
+  /* ===== ABOUT US ===== */
+  .sectionaboutus {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .janblisr,
+  .janblimn {
+    width: 100%;
+  }
+  /* ===== CARDS ===== */
+  .cardskolchy {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .lcard1,
+  .lcard2 {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+  /* ===== BACKGROUND PHOTO ===== */
+  .bagrphoto {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  /* ===== CAROUSEL ===== */
+  .container {
+    width: 90vw;
+    height: auto;
+  }
+  .slides {
+    font-size: 30px;
+  }
+  /* ===== FOOTER ===== */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  /* ===== BACK TO TOP ===== */
+  .back-to-top {
+    width: 50px;
+    height: 50px;
+  }
+  .back-to-top i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.picsgallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.indicator {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  bottom: 20px;
+  left: 45%;
+}
+
+.indicator div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.indicator {
+  background-color: black;
 }
 
 /*# sourceMappingURL=app.css.map */
