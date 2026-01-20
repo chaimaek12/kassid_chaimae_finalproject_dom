@@ -109,15 +109,33 @@ indicator.forEach((no9ta, index) => {
   })
 })
 
-// cheeefs 
-let mychefs=document.querySelector(".chefs")
-let mytswirat=document.querySelectorAll(".tswirat")
-let myl3aybadyalhover=document.querySelector(".l3aybadyalhover")
+//section chefs 
+let mytswirat = document.querySelectorAll(".tswirat");
 
 mytswirat.forEach(element => {
-    element.addEventListener("mouseenter",()=>{
-    mychefs.style.color="red"
-    myl3aybadyalhover.style.display="block"
-    })
-    
+
+  let myl3aybadyalhover = element.querySelector(".l3aybadyalhover");
+
+  element.addEventListener("mouseenter", () => {
+    myl3aybadyalhover.style.display = "block";
+    myl3aybadyalhover.style.display="flex"
   });
+
+  element.addEventListener("mouseleave", () => {
+    myl3aybadyalhover.style.display = "none";
+  });
+
+});
+
+
+
+
+//lvedio li feh ikoun maa tswera 
+ 
+
+let mycerclerouge = document.querySelector(".cerclerouge");
+
+mycerclerouge.addEventListener("click", () => {
+  window.open("https://youtu.be/Y7f98aduVJ8", "_blank");
+});
+

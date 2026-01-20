@@ -1,0 +1,81 @@
+/* sectionabout us */
+.chng{
+    h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 span{
+    color: red;
+}
+
+}
+
+
+
+.sectionaboutus{
+    display :flex ;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 100px;
+    
+}
+.janblisr{
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.janblimn{
+    width: 50%;
+
+}
+.leftdiv h5{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.bb{
+display: flex;
+}
+
+.bb p , .pargraph{
+    color: black;
+}
+.bb i {color: red;
+
+}
+.carta{
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.anarouge{
+    color: red;
+}
+.tsweralitht img{
+    position: relative;
+    width: 100%;
+}
+.cerclerouge{
+    background-color: red;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+top: 1300px;
+right :350px ;
+box-shadow: 0 0 0 20px rgba(216, 9, 9, 0.15),
+              0 20px 50px rgba(233, 9, 9, 0.5);
+
+}
+#byad{
+    font-size: 65px;
+    color:white;
+    
+}

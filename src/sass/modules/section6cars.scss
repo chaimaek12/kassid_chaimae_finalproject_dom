@@ -1,0 +1,100 @@
+/* section6 carousel one */
+
+.cartest{
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+
+   .lisrc{
+    width:70% ;
+   }
+   .rightlimen{
+    width: 30%;
+   }
+   .rightlimen img{
+    border-radius: 50%;
+   }
+
+}
+
+
+.carousselbyme{
+    background-color: antiquewhite;
+}
+
+
+.avantcarous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     background-color: antiquewhite;
+
+    h2 span{
+        color: red;
+
+    }
+}
+
+.container{
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+   
+    border-radius: 20px;
+  
+    margin-top: 70px;
+    position: relative;
+}
+
+.track{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   overflow: hidden;
+
+    
+
+}
+
+
+
+.slides{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+     border-radius: 20px;
+    
+    flex-shrink: 0;
+}
+
+.indicators{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+.indicators div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+.indicators .dotColor{
+    background-color: black;
+}
+.stars {
+    display: flex;
+    color: yellow;
+   
+
+    
+}

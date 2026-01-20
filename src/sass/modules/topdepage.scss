@@ -1,0 +1,55 @@
+.topdepage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 25px ;
+    padding-top: 25px;
+    position:sticky;  //bach tb9a mayaa fla page kamla 
+ z-index: 99;
+ top :0;
+ background-color: white;
+ 
+
+}
+
+h1 span {
+    color: red;
+}
+
+.linkss {
+display: flex;
+gap: 20px;
+
+}
+.linkss a{
+    color: grey;
+    text-decoration: none;
+
+}
+#drop{border: none;
+
+}
+#drop:hover{
+    color: black;
+    text-decoration:underline  red ;
+    
+}
+.vedioobutton{
+    display: flex;
+
+}
+
+.lbotona button {
+   
+      padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:red;
+}
+.linkss a:hover{
+    color: black;
+    text-decoration:underline  red ;
+    
+}

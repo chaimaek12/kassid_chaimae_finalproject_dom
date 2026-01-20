@@ -1,0 +1,9 @@
+// * section 4 de photo au bag et  */
+.bagrphoto{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: url(/public/photos/stats-bg.jpg);
+    height: 400px;
+    color: white;
+}
