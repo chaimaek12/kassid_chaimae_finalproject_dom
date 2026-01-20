@@ -367,7 +367,7 @@ h1 span {
 
 .stars {
   display: flex;
-  flex-direction: column;
+  color: yellow;
 }
 
 /* lmaps section */
@@ -652,6 +652,35 @@ button:hover {
 
 .indicator {
   background-color: black;
+}
+
+.tswirat {
+  position: relative;
+  overflow: hidden;
+}
+
+.l3aybalkahla {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  width: 100%;
+  width: 700px;
+  filter: brightness(0) invert(1);
+}
+
+.l3aybadyalhover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  bottom: 350px;
+  left: 300px;
+  background-color: gray;
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */

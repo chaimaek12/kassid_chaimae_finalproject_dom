@@ -109,3 +109,15 @@ indicator.forEach((no9ta, index) => {
   })
 })
 
+// cheeefs 
+let mychefs=document.querySelector(".chefs")
+let mytswirat=document.querySelectorAll(".tswirat")
+let myl3aybadyalhover=document.querySelector(".l3aybadyalhover")
+
+mytswirat.forEach(element => {
+    element.addEventListener("mouseenter",()=>{
+    mychefs.style.color="red"
+    myl3aybadyalhover.style.display="block"
+    })
+    
+  });
