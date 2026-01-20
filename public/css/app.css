@@ -285,30 +285,35 @@ button:hover {
     transform: translate(-50%, -50%);
   }
 }
+.gallery {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .picsgallery {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
   transition: transform 0.5s ease;
 }
 
+.picy {
+  width: 400px;
+  flex-shrink: 0;
+}
+
 .indicator {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 10px;
-  justify-content: center;
-  bottom: 20px;
-  left: 45%;
 }
 
-.indicator div {
-  width: 20px;
-  height: 20px;
+.no9ta {
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background-color: white;
-}
-
-.indicator {
   background-color: black;
 }
 
@@ -338,8 +343,37 @@ button:hover {
   width: 100px;
   bottom: 350px;
   left: 300px;
-  background-color: gray;
+  background-color: rgb(255, 228, 228);
   display: none;
+}
+
+.chefsbootstra {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  align-items: center;
+}
+.chefsbootstra h1, .chefsbootstra h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chefsbootstra h2 span {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#modcar {
+  display: flex;
+  gap: 20px;
+}
+
+.chefs:hover {
+  transform: scale(1.1) translateY(-10px);
 }
 
 /* lmaps section */

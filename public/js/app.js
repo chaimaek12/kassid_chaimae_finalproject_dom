@@ -118,6 +118,8 @@ indicator.forEach((no9ta, index) => {
   })
 })
 
+
+
 //section chefs 
 let mytswirat = document.querySelectorAll(".tswirat");
 

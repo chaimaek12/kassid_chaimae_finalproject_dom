@@ -23,10 +23,40 @@ height: 100px;
    width: 100px;   
    bottom :350px ;
    left: 300px;
- background-color: gray;
+ background-color:rgb(255, 228, 228);
  display: none;
    
 }
+.chefsbootstra{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  align-items: center;
+
+
+    h1 ,h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2 span{
+        color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+#modcar{
+    display: flex;
+    gap: 20px;
+}
+.chefs:hover{
+    transform: scale(1.1) translateY(-10px);
+
+}
+
 
 
 
