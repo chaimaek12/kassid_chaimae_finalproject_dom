@@ -6,7 +6,7 @@
    gap: 50px;
    
     padding: 20px 100px;
-    background-color: antiquewhite;
+    background-color: #f2f2f2;
 
 }
 .lcard1{
@@ -34,6 +34,7 @@
     padding-left:20px ;
     padding-right:20px ;
     gap:10px ;
+    text-align: center;
 }
 .lcard2 i {
     border-radius: 50%;
@@ -53,7 +54,8 @@
     border-radius: 20px;
     border: none;
     color: white;
-    background-color :rgb(226, 226, 220);
+    background-color: rgba(255,255,255,0.2);
+    
 }
 .lcard1 button:hover{
     color:red;

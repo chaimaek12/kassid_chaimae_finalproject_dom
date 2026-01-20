@@ -1,13 +1,16 @@
 /* css dyal section 2  */
 .section2{
-    background-color: rgb(241, 224, 224);
+    background-color: #f2f2f2;;
     height: 90vh;
 
    
     display: flex;
     align-items: center;
     justify-content: center;
+   h1{
+    font-family:  'Amatic SC', cursive;
    
+   }
 }
 .leftone{
 // height: 100vh;
@@ -63,5 +66,6 @@ width:50vw;
 
 
 .rightone img  {
+  width: 70%;
   animation: thrika 2s infinite ease-in-out;
 }

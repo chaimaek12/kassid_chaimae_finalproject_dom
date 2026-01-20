@@ -1,27 +1,51 @@
 /* section6 carousel one */
 
-.cartest{
-display: flex;
+// .cartest{
+// display: flex;
 
-align-items: center;
-justify-content: center;
+// align-items: center;
+// justify-content: center;
 
 
-   .lisrc{
-    width:70% ;
-   }
-   .rightlimen{
-    width: 30%;
-   }
-   .rightlimen img{
-    border-radius: 50%;
-   }
+//    .lisrc{
+//     width:70% ;
+//    }
+//    .rightlimen{
+//     width: 30%;
+//    }
+//    .rightlimen img{
+//     border-radius: 50%;
+//    }
 
+// }
+
+
+.cartest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartest .lisrc {
+  width: 70%;
+}
+
+.cartest .rightlimen {
+  width: 30%;
+}
+
+.cartest .rightlimen img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 
+
 .carousselbyme{
-    background-color: antiquewhite;
+    background-color:#f2f2f2;
+   
 }
 
 
@@ -30,7 +54,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-     background-color: antiquewhite;
+     background-color: #f2f2f2;
 
     h2 span{
         color: red;
@@ -45,7 +69,7 @@ justify-content: center;
    
     border-radius: 20px;
   
-    margin-top: 70px;
+   
     position: relative;
 }
 
@@ -97,4 +121,10 @@ justify-content: center;
    
 
     
+}
+.rightlimen img{
+      width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }

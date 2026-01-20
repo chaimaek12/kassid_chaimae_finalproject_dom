@@ -6,31 +6,31 @@ let container = document.querySelectorAll('.container');
 
 let index = 0;
 
-btn.forEach(arrow => {
-    arrow.addEventListener('click', () => {
-        if(arrow.id == 'left'){
-            index--
+// btn.forEach(arrow => {
+//     arrow.addEventListener('click', () => {
+//         if(arrow.id == 'left'){
+//             index--
             
-        }else{
-            index ++
-        }
-       container.forEach(carousel => {
-             if(arrow.getAttribute('data-bs-target') ==  carousel.id){
-                let slides = carousel.querySelectorAll('.slides')
-                if(arrow.id == 'right' && index > slides.length - 1){
-                    index = 0
-                }else if(index < 0 && arrow.id == 'left'){
-                    index = slides.length - 1
-                }
-                slides.forEach(slide => {
-                    slide.style.transform = `translateX(calc(-100% * ${index}))`
+//         }else{
+//             index ++
+//         }
+//        container.forEach(carousel => {
+//              if(arrow.getAttribute('data-bs-target') ==  carousel.id){
+//                 let slides = carousel.querySelectorAll('.slides')
+//                 if(arrow.id == 'right' && index > slides.length - 1){
+//                     index = 0
+//                 }else if(index < 0 && arrow.id == 'left'){
+//                     index = slides.length - 1
+//                 }
+//                 slides.forEach(slide => {
+//                     slide.style.transform = `translateX(calc(-100% * ${index}))`
 
-                }) 
+//                 }) 
                 
-             }
-       });
-    })
-})
+//              }
+//        });
+//     })
+// })
 
 //indicators
 
@@ -57,15 +57,24 @@ indicators.forEach(dot => {
     
 })
 
-container.forEach(carousel  => {
-    if(carousel.hasAttribute('autoslide')){
-        let time = carousel.getAttribute('autoslide')
-        setInterval(() => {
-            let nextBtn =  carousel.querySelector('.right')
-            nextBtn.click() 
-        }, time);
-   }
-})
+// container.forEach(carousel  => {
+//     if(carousel.hasAttribute('autoslide')){
+//         let time = carousel.getAttribute('autoslide')
+//         setInterval(() => {
+//             let nextBtn =  carousel.querySelector('.right')
+//             nextBtn.click() 
+//         }, time);
+//    }
+// })
+
+
+
+
+
+
+
+
+
 
 // menuu
 
