@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .menutitre {
   display: flex;
   align-items: center;
@@ -815,57 +816,40 @@ h1 span {
   text-decoration: underline red;
 }
 
+body {
+  position: relative;
+}
+
+/* MODAL */
+.modaldiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+/* FORMULAIRE */
 .lformulaire {
-  display: none;
+  background: white;
+  width: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 10px;
+  display: none; /* caché par défaut */
 }
 
-.booking {
-  max-width: 500px;
-  margin: 30px auto;
-  padding: 25px 20px;
-  background: #fff;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.booking input,
-.booking select {
-  width: 100%;
-  padding: 12px 14px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-}
-
-.booking .time {
-  display: flex;
-  gap: 10px;
-}
-
-.booking .time input {
-  flex: 1;
-}
-
-.booking button {
-  width: 100%;
-  padding: 12px;
-  background: #ff3b3b;
-  color: #fff;
-  border-radius: 12px;
-}
-
-.booking button:hover {
-  background: #e63535;
-}
-
-@media (max-width: 480px) {
-  .booking {
-    padding: 18px;
-  }
-  .booking .time {
-    flex-direction: column;
-  }
+/* BOUTON CLOSE */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  color: white;
+  background-color: rgb(214, 41, 41);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */

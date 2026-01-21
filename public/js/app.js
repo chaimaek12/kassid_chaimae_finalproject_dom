@@ -153,8 +153,27 @@ mycerclerouge.addEventListener("click", () => {
 //booking
 
 let lbotona=document.querySelector(".lbotona")
-let mylformulaire=document.querySelector('.lformulaire')
-lbotona.addEventListener("click",()=>{
-mylformulaire.style.display="block"
-})
+ let mylformulaire=document.querySelector('.lformulaire')
+// lbotona.addEventListener("click",()=>{
+// mylformulaire.style.display="block"
+// })
+let modaldiv=document.querySelector(".modaldiv ")
+
+
+  lbotona.addEventListener("click", () => {
+    
+    
+        mylformulaire.style.display = "block";
+        modaldiv.style.zIndex="99";
+      
+      let close = document.querySelector(".close");
+      close.style.display="block"
+      
+      close.addEventListener('click', () => { 
+        mylformulaire.style.display = 'none'
+        close.style.display="none"
+      })
+   
+    })
+  
 
