@@ -71,7 +71,17 @@ textarea {
    
 }
 
-button {
+      .inside-left-input {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.subject {
+    margin-bottom: 15px;
+}
+
+.button2  button{
     background: #e60000;
     color: #fff;
     border: none;

@@ -150,3 +150,11 @@ mycerclerouge.addEventListener("click", () => {
   window.open("https://youtu.be/Y7f98aduVJ8", "_blank");
 });
 
+//booking
+
+let lbotona=document.querySelector(".lbotona")
+let mylformulaire=document.querySelector('.lformulaire')
+lbotona.addEventListener("click",()=>{
+mylformulaire.style.display="block"
+})
+

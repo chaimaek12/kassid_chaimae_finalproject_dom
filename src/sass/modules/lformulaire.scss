@@ -1,0 +1,63 @@
+.lformulaire{
+    display: none;}
+    
+
+.booking{
+  
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px 20px;
+  background: #fff;
+  border-radius: 16px;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ 
+}
+
+.booking input,
+.booking select{
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  
+  
+ 
+}
+
+
+
+.booking .time{
+  display: flex;
+  gap: 10px;
+}
+
+.booking .time input{
+  flex: 1;
+}
+
+.booking button{
+  width: 100%;
+  padding: 12px;
+  background: #ff3b3b;
+  color: #fff;
+ 
+  border-radius: 12px;
+ 
+}
+
+.booking button:hover{
+  background: #e63535;
+}
+
+@media (max-width: 480px){
+  .booking{
+    padding: 18px;
+  }
+
+  .booking .time{
+    flex-direction: column;
+  }
+}

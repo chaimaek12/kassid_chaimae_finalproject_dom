@@ -1,11 +1,78 @@
 .inputetphoto{
     display: flex;
-    padding-left: 150px;
-    padding-right: 00px;
-      .left-input{
-        width: 50%;
-      }
+ 
+    align-items: center;
+    justify-content: center;
+    gap :40px ;
+    padding :60px ;
+    background-color: #f7f7f7;
+
+      .left-input {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+   
+   
+}
+
       .pic{
         width: 50%;
       }
+
+
+      .inside-left-input {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.subject {
+    margin-bottom: 15px;
+}
+
+}
+
+
+
+.button-map button {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+   
+}
+
+.button-map button:hover {
+    
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 900px) {
+    .inputetphoto {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .inside-left-input {
+        flex-direction: column;
+    }
 }
