@@ -10,7 +10,7 @@ let index = 0;
 //     arrow.addEventListener('click', () => {
 //         if(arrow.id == 'left'){
 //             index--
-            
+
 //         }else{
 //             index ++
 //         }
@@ -26,7 +26,7 @@ let index = 0;
 //                     slide.style.transform = `translateX(calc(-100% * ${index}))`
 
 //                 }) 
-                
+
 //              }
 //        });
 //     })
@@ -36,25 +36,25 @@ let index = 0;
 
 let indicators = document.querySelectorAll('.dots')
 indicators.forEach(dot => {
-    //to what carousel this dot belongs to ????
-    dot.addEventListener('click', () => {
-        container.forEach(carousel => {
-        if(carousel.id == dot.getAttribute('data-bs-target')){
-            let slideTogo = dot.id
-            indicators.forEach(indicator => {
-                indicator.classList.remove('dotColor')
-            })
+  //to what carousel this dot belongs to ????
+  dot.addEventListener('click', () => {
+    container.forEach(carousel => {
+      if (carousel.id == dot.getAttribute('data-bs-target')) {
+        let slideTogo = dot.id
+        indicators.forEach(indicator => {
+          indicator.classList.remove('dotColor')
+        })
 
-            dot.classList.add('dotColor')
-            index = slideTogo
-            let slides = carousel.querySelectorAll('.slides')
-            slides.forEach(slide => {
-                slide.style.transform = `translateX(calc(-100% * ${slideTogo}))`
-            })
-        }
+        dot.classList.add('dotColor')
+        index = slideTogo
+        let slides = carousel.querySelectorAll('.slides')
+        slides.forEach(slide => {
+          slide.style.transform = `translateX(calc(-100% * ${slideTogo}))`
+        })
+      }
     })
-    })
-    
+  })
+
 })
 
 // container.forEach(carousel  => {
@@ -78,34 +78,34 @@ indicators.forEach(dot => {
 
 // menuu
 
-let mymenu=document.querySelector(".menu")
-let dakchylifmenu=mymenu.querySelectorAll("div")
- let mymenutitre=document.querySelector(".menutitre")
- let mystarters=document.querySelector(".mystarters")
-let myh1span=document.querySelector(".myh1demenu")
-let mybreaky=document.querySelector(".mybreaky")
-let mylunch=document.querySelector(".mylunch")
-let mydinner=document.querySelector(".mydinner")
+let mymenu = document.querySelector(".menu")
+let dakchylifmenu = mymenu.querySelectorAll("div")
+let mymenutitre = document.querySelector(".menutitre")
+let mystarters = document.querySelector(".mystarters")
+let myh1span = document.querySelector(".myh1demenu")
+let mybreaky = document.querySelector(".mybreaky")
+let mylunch = document.querySelector(".mylunch")
+let mydinner = document.querySelector(".mydinner")
 
 
-mystarters.addEventListener("click",()=>{
-    mymenu.style.display="none"
-    myh1span.style.display="none"
+mystarters.addEventListener("click", () => {
+  mymenu.style.display = "none"
+  myh1span.style.display = "none"
 
 
 })
 
-mybreaky.addEventListener("click",()=>{
-   myh1span.textContent= "Breakfast"
-   myh1span.style.color="red"
+mybreaky.addEventListener("click", () => {
+  myh1span.textContent = "Breakfast"
+  myh1span.style.color = "red"
 })
-mylunch.addEventListener("click",()=>{
-   myh1span.textContent= "lunch"
-   myh1span.style.color="red"
+mylunch.addEventListener("click", () => {
+  myh1span.textContent = "lunch"
+  myh1span.style.color = "red"
 })
-mydinner.addEventListener("click",()=>{
-   myh1span.textContent= "dinner"
-   myh1span.style.color="red"
+mydinner.addEventListener("click", () => {
+  myh1span.textContent = "dinner"
+  myh1span.style.color = "red"
 })
 //carousell de gellerie 
 
@@ -129,7 +129,7 @@ mytswirat.forEach(element => {
 
   element.addEventListener("mouseenter", () => {
     myl3aybadyalhover.style.display = "block";
-    myl3aybadyalhover.style.display="flex"
+    myl3aybadyalhover.style.display = "flex"
   });
 
   element.addEventListener("mouseleave", () => {
@@ -142,12 +142,15 @@ mytswirat.forEach(element => {
 
 
 //lvedio li feh ikoun maa tswera 
- 
+
 
 let mycerclerouge = document.querySelector(".cerclerouge");
-
+let myonclick = document.querySelector(".onclick")
 mycerclerouge.addEventListener("click", () => {
   window.open("https://youtu.be/Y7f98aduVJ8", "_blank");
+  console.log("azert");
+
+  // myonclick.style.display="block"
 });
 
 //booking
@@ -200,20 +203,20 @@ sendbtn.addEventListener("click", (e) => {
   console.log(lhojozat);
   alert("ela slamteek");
 
-  if(lhojozat[0].end===lhojozat[1].end && lhojozat[0].start===lhojozat[1].start  ){
+  if (lhojozat[0].end === lhojozat[1].end && lhojozat[0].start === lhojozat[1].start) {
     alert("impossible")
 
 
 
   }
-   for (let i = 0; i < lhojozat.length; i++) {
-    let b =lhojozat[i];
+  for (let i = 0; i < lhojozat.length; i++) {
+    let b = lhojozat[i];
 
     if (start < b.end && end > b.start) {
       alert("deja kayn chi hed fdak lwa9t")
       return;
     }
-  
+
 
   }
 });
