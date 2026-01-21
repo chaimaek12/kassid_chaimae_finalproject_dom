@@ -61,7 +61,7 @@
 }
 
 .finalfooter span {
-  color: orange;
+  color: red;
 }
 
 .adress i, .contacts i, .OpeningHours i {
@@ -73,7 +73,7 @@
   position: fixed;
   width: 60px;
   height: 60px;
-  background-color: #e96b56;
+  background-color: red;
   opacity: 1;
   z-index: 99;
   bottom: 10px;
@@ -815,17 +815,16 @@ h1 span {
   text-decoration: underline red;
 }
 
-.modaldiv .modaldiv .modaldiv {
+.modaldiv {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: 9999;
-  background: rgba(0, 0, 0, 0.5);
   display: none;
 }
-.modaldiv .close {
+
+.close {
   display: none;
   position: absolute;
   padding: 5px 10px;
@@ -836,18 +835,18 @@ h1 span {
   border: none;
   border-radius: 40%;
 }
-.modaldiv {
-  /* style dyal lformulaire  */
-}
-.modaldiv .lformulaire .lformulaire {
+
+.lformulaire {
   background: white;
   width: 400px;
   padding: 20px;
   margin: auto;
   margin-top: 100px;
   border-radius: 10px;
+  display: none;
 }
-.modaldiv .booking {
+
+.booking {
   max-width: 500px;
   margin: 30px auto;
   padding: 25px 20px;
@@ -857,70 +856,43 @@ h1 span {
   flex-direction: column;
   gap: 15px;
 }
-.modaldiv .booking input,
-.modaldiv .booking select {
+
+.booking input,
+.booking select {
   width: 100%;
   padding: 12px 14px;
   border: 1px solid #ddd;
   border-radius: 12px;
 }
-.modaldiv .booking .time {
+
+.booking .time {
   display: flex;
   gap: 10px;
 }
-.modaldiv .booking .time input {
+
+.booking .time input {
   flex: 1;
 }
-.modaldiv .booking button {
+
+.booking button {
   width: 100%;
   padding: 12px;
   background: #ff3b3b;
   color: #fff;
   border-radius: 12px;
 }
-.modaldiv .booking button:hover {
+
+.booking button:hover {
   background: #e63535;
 }
+
 @media (max-width: 480px) {
-  .modaldiv .booking {
+  .booking {
     padding: 18px;
   }
-  .modaldiv .booking .time {
+  .booking .time {
     flex-direction: column;
   }
-}
-
-body {
-  position: relative;
-}
-
-.modaldiv {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-}
-
-.lformulaire {
-  background: white;
-  width: 400px;
-  padding: 20px;
-  margin: 100px auto;
-  border-radius: 10px;
-  display: none;
-}
-
-.close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding: 5px 10px;
-  color: white;
-  background-color: rgb(214, 41, 41);
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -148,12 +148,15 @@ let mycerclerouge = document.querySelector(".cerclerouge");
 let myonclick = document.querySelector(".onclick")
 mycerclerouge.addEventListener("click", () => {
   window.open("https://youtu.be/Y7f98aduVJ8", "_blank");
-  console.log("azert");
+  // console.log("azert");
 
   // myonclick.style.display="block"
 });
 
 //booking
+
+
+
 
 let lbotona = document.querySelector(".lbotona");
 let mylformulaire = document.querySelector('.lformulaire');
@@ -173,6 +176,7 @@ let capacite = 3;
 
 lbotona.addEventListener("click", () => {
   mylformulaire.style.display = "block";
+  modaldiv.style.display="block";
   modaldiv.style.zIndex = "99";
   close.style.display = "block";
 });
@@ -219,4 +223,7 @@ sendbtn.addEventListener("click", (e) => {
 
 
   }
+
+ 
+
 });

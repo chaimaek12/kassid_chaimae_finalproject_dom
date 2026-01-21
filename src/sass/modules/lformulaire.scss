@@ -1,23 +1,23 @@
 
 
-.modaldiv{
 
-.modaldiv{
- 
-    .modaldiv {
+
+
+  .modaldiv {
   position: fixed;     
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: 9999;        
-  background: rgba(0,0,0,0.5);
+  display: none ;
 
-  display: none;       
+ 
+      
 }
+
 
   
-}
+
 .close{
     display: none;
 position: absolute;
@@ -30,21 +30,18 @@ border: none;
 border-radius: 40%;
 }
 
-/* style dyal lformulaire  */
-
-.lformulaire{
     
      
-   .lformulaire {
+.lformulaire {
   background: white;
   width: 400px;
   padding: 20px;
   margin: auto;
   margin-top: 100px;
   border-radius: 10px;
+  display: none;
 }
 
-}
     
 
 .booking{
@@ -107,43 +104,13 @@ border-radius: 40%;
   }
 }
 
-}
-body {
-  position: relative;
-}
+
+// body {
+//   position: relative;
+// }
 
 
-.modaldiv {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-//   background: rgba(0, 0, 0, 0.5);
-//   z-index: 9999;
-
-  
-}
 
 
-.lformulaire {
-  background: white;
-  width: 400px;
-  padding: 20px;
-  margin: 100px auto;
-  border-radius: 10px;
-  display: none;
-}
 
 
-.close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding: 5px 10px;
-  color: white;
-  background-color: rgb(214, 41, 41);
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-}
