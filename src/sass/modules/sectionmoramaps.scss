@@ -3,18 +3,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-// body {
-//     background: #f8f9fa;
-//     margin: 0;
-//     padding: 40px;
-// }
+
 
 .contact-section {
     max-width: 1100px;
     margin: auto;
 }
 
-/* INFO BOXES */
+
 .info-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,7 +44,7 @@
     font-size: 22px;
 }
 
-/* FORM */
+
 .contact-form {
     background: #fff;
     padding: 30px;
@@ -80,11 +76,14 @@ button {
     color: #fff;
     border: none;
     padding: 14px 30px;
-    cursor: pointer;
+    
     border-radius: 30px;
     font-size: 16px;
-    display: block;
+
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button:hover {

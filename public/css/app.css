@@ -123,7 +123,6 @@
   margin: auto;
 }
 
-/* INFO BOXES */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -157,7 +156,6 @@
   font-size: 22px;
 }
 
-/* FORM */
 .contact-form {
   background: #fff;
   padding: 30px;
@@ -187,11 +185,12 @@ button {
   color: #fff;
   border: none;
   padding: 14px 30px;
-  cursor: pointer;
   border-radius: 30px;
   font-size: 16px;
-  display: block;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:hover {
@@ -381,6 +380,18 @@ button:hover {
   width: 100%;
   height: 60vh;
   border: none;
+}
+
+.contact h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
 }
 
 /* css dyal section 2  */
