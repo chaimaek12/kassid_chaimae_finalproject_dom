@@ -152,28 +152,68 @@ mycerclerouge.addEventListener("click", () => {
 
 //booking
 
-let lbotona=document.querySelector(".lbotona")
- let mylformulaire=document.querySelector('.lformulaire')
-// lbotona.addEventListener("click",()=>{
-// mylformulaire.style.display="block"
-// })
-let modaldiv=document.querySelector(".modaldiv ")
+let lbotona = document.querySelector(".lbotona");
+let mylformulaire = document.querySelector('.lformulaire');
+let modaldiv = document.querySelector(".modaldiv");
+let close = document.querySelector(".close");
+
+let m3achadkhol = document.querySelector(".m3achadkhol");
+let m3achatkhroj = document.querySelector(".m3achatkhroj");
+let typedlmakla = document.querySelector("#typedlmakla");
+let nbr = document.querySelector(".nbr");
+let smitk = document.querySelector(".smitk");
+let sendbtn = document.querySelector(".sendbtn");
+
+let lhojozat = [];
+let capacite = 3;
 
 
-  lbotona.addEventListener("click", () => {
-    
-    
-        mylformulaire.style.display = "block";
-        modaldiv.style.zIndex="99";
-      
-      let close = document.querySelector(".close");
-      close.style.display="block"
-      
-      close.addEventListener('click', () => { 
-        mylformulaire.style.display = 'none'
-        close.style.display="none"
-      })
-   
-    })
+lbotona.addEventListener("click", () => {
+  mylformulaire.style.display = "block";
+  modaldiv.style.zIndex = "99";
+  close.style.display = "block";
+});
+
+
+close.addEventListener("click", () => {
+  mylformulaire.style.display = "none";
+  close.style.display = "none";
+});
+
+
+sendbtn.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  if (lhojozat.length >= capacite) {
+    alert("Ma3ndnach blasa, la capacité 3");
+    return;
+  }
+
+  let start = m3achadkhol.value;
+  let end = m3achatkhroj.value;
+  let meal = typedlmakla.value;
+  let people = nbr.value;
+  let name = smitk.value;
+
+  lhojozat.push({ name, meal, start, end, people });
+
+  console.log(lhojozat);
+  alert("ela slamteek");
+
+  if(lhojozat[0].end===lhojozat[1].end && lhojozat[0].start===lhojozat[1].start  ){
+    alert("impossible")
+
+
+
+  }
+   for (let i = 0; i < lhojozat.length; i++) {
+    let b =lhojozat[i];
+
+    if (start < b.end && end > b.start) {
+      alert("deja kayn chi hed fdak lwa9t")
+      return;
+    }
   
 
+  }
+});

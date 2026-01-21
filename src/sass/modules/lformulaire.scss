@@ -1,131 +1,118 @@
 
-// body{
-//     position: relative;
-// }
-// .modaldiv{
 
-// .modaldiv{
-//     // /* width: 500px;
-//     // height: 500px; */
-//     // width: 100%;
-//     // height: 100%;
-//     // border-radius: 20px;
-//     // background-color: white;
-//     // /* opacity: 0.5; */
-   
-//     // position: absolute;
-//     // top:1000000000 ;
-//     // display: flex;
-//     .modaldiv {
-//   position: fixed;      /* reste au-dessus de la page */
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100vh;
-//   z-index: 9999;        /* au-dessus du footer et du reste */
-//   background: rgba(0,0,0,0.5); /* fond sombre (optionnel) */
+.modaldiv{
 
-//   display: none;        /* caché par défaut */
-// }
+.modaldiv{
+ 
+    .modaldiv {
+  position: fixed;     
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;        
+  background: rgba(0,0,0,0.5);
+
+  display: none;       
+}
 
   
-// }
-// .close{
-//     display: none;
-// position: absolute;
-// padding: 5px 10px;
-// right:20px;
-// top: 20px;
-// color: aliceblue;
-// background-color: rgb(214, 41, 41);
-// border: none;
-// border-radius: 40%;
-// }
+}
+.close{
+    display: none;
+position: absolute;
+padding: 5px 10px;
+right:20px;
+top: 20px;
+color: aliceblue;
+background-color: rgb(214, 41, 41);
+border: none;
+border-radius: 40%;
+}
 
-// /* style dyal lformulaire  */
+/* style dyal lformulaire  */
 
-// .lformulaire{
-//     //  display: none;
-//     //  z-index:   99;
+.lformulaire{
+    
      
-//    .lformulaire {
-//   background: white;
-//   width: 400px;
-//   padding: 20px;
-//   margin: auto;
-//   margin-top: 100px;
-//   border-radius: 10px;
-// }
+   .lformulaire {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
 
-// }
+}
     
 
-// .booking{
+.booking{
   
-//   max-width: 500px;
-//   margin: 30px auto;
-//   padding: 25px 20px;
-//   background: #fff;
-//   border-radius: 16px;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px 20px;
+  background: #fff;
+  border-radius: 16px;
  
-//   display: flex;
-//   flex-direction: column;
-//   gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
  
-// }
+}
 
-// .booking input,
-// .booking select{
-//   width: 100%;
-//   padding: 12px 14px;
-//   border: 1px solid #ddd;
-//   border-radius: 12px;
+.booking input,
+.booking select{
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
   
   
  
-// }
+}
 
 
 
-// .booking .time{
-//   display: flex;
-//   gap: 10px;
-// }
+.booking .time{
+  display: flex;
+  gap: 10px;
+}
 
-// .booking .time input{
-//   flex: 1;
-// }
+.booking .time input{
+  flex: 1;
+}
 
-// .booking button{
-//   width: 100%;
-//   padding: 12px;
-//   background: #ff3b3b;
-//   color: #fff;
+.booking button{
+  width: 100%;
+  padding: 12px;
+  background: #ff3b3b;
+  color: #fff;
  
-//   border-radius: 12px;
+  border-radius: 12px;
  
-// }
+}
 
-// .booking button:hover{
-//   background: #e63535;
-// }
+.booking button:hover{
+  background: #e63535;
+}
 
-// @media (max-width: 480px){
-//   .booking{
-//     padding: 18px;
-//   }
+@media (max-width: 480px){
+  .booking{
+    padding: 18px;
+  }
 
-//   .booking .time{
-//     flex-direction: column;
-//   }
-// }
+  .booking .time{
+    flex-direction: column;
+  }
+}
 
-// }
+}
 body {
   position: relative;
 }
 
-/* MODAL */
+
 .modaldiv {
   position: fixed;
   top: 0;
@@ -138,17 +125,17 @@ body {
   
 }
 
-/* FORMULAIRE */
+
 .lformulaire {
   background: white;
   width: 400px;
   padding: 20px;
   margin: 100px auto;
   border-radius: 10px;
-  display: none; /* caché par défaut */
+  display: none;
 }
 
-/* BOUTON CLOSE */
+
 .close {
   position: absolute;
   top: 20px;
