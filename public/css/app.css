@@ -894,5 +894,15 @@ h1 span {
     flex-direction: column;
   }
 }
+.onclick {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  margin: auto;
+}
 
 /*# sourceMappingURL=app.css.map */

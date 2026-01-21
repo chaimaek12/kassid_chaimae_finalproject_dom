@@ -147,10 +147,10 @@ mytswirat.forEach(element => {
 let mycerclerouge = document.querySelector(".cerclerouge");
 let myonclick = document.querySelector(".onclick")
 mycerclerouge.addEventListener("click", () => {
-  window.open("https://youtu.be/Y7f98aduVJ8", "_blank");
-  // console.log("azert");
+  // // window.open("https://youtu.be/Y7f98aduVJ8", "_blank");
+ 
 
-  // myonclick.style.display="block"
+  myonclick.style.display="block"
 });
 
 //booking
